@@ -1,0 +1,2 @@
+2020-12-31,"b'@as_informatico #!/bin/bash\nread -p ""Host: "" HOST\nnum=$(cat 2.txt | wc -l)\nhost=($HOST)\nfor hosts in ""{host[@]}""\ndo\n        curl --silent --insecure ""https://t.co/0r4FXDlXJb"" &gt; 1.txt &amp;&amp; cat 1.txt | grep -oE ""[a-zA-Z0-9._-]+\\.$HOST"" | sort -u &gt; 2.txt &amp;&amp; cat 2.txt\n\n        echo ""son : $num""\ndone'"
+2020-12-29,"b""Rose Above Previous Day's High today: $JQC $BKN $GLCN $BKEPP $TME $SREV $VALU $NUM $QGEN ... https://t.co/TBYRpvrFqi"""
